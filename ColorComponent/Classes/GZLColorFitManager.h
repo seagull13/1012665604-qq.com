@@ -7,6 +7,7 @@
 
 #ifndef GZLColorFitManager_h
 #define GZLColorFitManager_h
+#import "UIColor+GZLColorFit.h"
 #import <UIKit/UIKit.h>
 #pragma mark ----- 颜色变更，在这里设置需要变更的颜色
 static inline UIColor * fit_color(UIColor *color){
