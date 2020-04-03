@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColorComponent'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'color Manger'
   
 
@@ -31,7 +31,7 @@ test color changeTheme
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ColorComponent/Classes/**/*'
+  s.source_files = 'ColorComponent/Classes/Base/**/*'
   
   # s.resource_bundles = {
   #   'ColorComponent' => ['ColorComponent/Assets/*.png']

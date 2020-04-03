@@ -1,5 +1,5 @@
 PODS:
-  - ColorComponent (0.1.0)
+  - ColorComponent (0.2.1)
 
 DEPENDENCIES:
   - ColorComponent (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ColorComponent: 8a38aa79acb7fb4f226d4fb18af2de9815ac9c34
+  ColorComponent: b23591a98e1fadf8c26263b532a8f6b89305c664
 
 PODFILE CHECKSUM: bce835bdb46b8f8dac69e2a678f6138b8dae3b26
 

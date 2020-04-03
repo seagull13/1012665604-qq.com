@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ColorHead.h"
 #import "GZLColorFitManager.h"
 #import "UIColor+GZLColorFit.h"
 
