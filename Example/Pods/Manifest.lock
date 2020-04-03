@@ -1,0 +1,16 @@
+PODS:
+  - ColorComponent (0.1.0)
+
+DEPENDENCIES:
+  - ColorComponent (from `../`)
+
+EXTERNAL SOURCES:
+  ColorComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorComponent: 83da6559fee26637b7dce3fc8c0a49d0ba048b79
+
+PODFILE CHECKSUM: bce835bdb46b8f8dac69e2a678f6138b8dae3b26
+
+COCOAPODS: 1.9.0.beta.3

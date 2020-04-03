@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08896772624B5DB69BA47425 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		33C04D112FB8BF0DE6719F9D /* ColorComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorComponent.podspec; path = ../ColorComponent.podspec; sourceTree = "<group>"; };
+		08896772624B5DB69BA47425 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33C04D112FB8BF0DE6719F9D /* ColorComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorComponent.podspec; path = ../ColorComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ColorComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		B0E3A4689F88C7CBB1900E3D /* Pods-ColorComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ColorComponent_Tests/Pods-ColorComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B46D339E77275EBAA84F2CC6 /* Pods-ColorComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-ColorComponent_Example/Pods-ColorComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B90F61734DC25A375038185F /* Pods-ColorComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-ColorComponent_Tests/Pods-ColorComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E8FD6E3BB8995E188B660065 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E8FD6E3BB8995E188B660065 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				B0E3A4689F88C7CBB1900E3D /* Pods-ColorComponent_Tests.debug.xcconfig */,
 				B90F61734DC25A375038185F /* Pods-ColorComponent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
