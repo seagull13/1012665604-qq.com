@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "GZLColorFitManager.h"
+#import "UIColor+GZLColorFit.h"
 
 FOUNDATION_EXPORT double ColorComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char ColorComponentVersionString[];

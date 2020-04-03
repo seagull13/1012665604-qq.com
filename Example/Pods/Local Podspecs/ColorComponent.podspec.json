@@ -1,9 +1,9 @@
 {
   "name": "ColorComponent",
   "version": "0.1.0",
-  "summary": "A short description of ColorComponent.",
+  "summary": "color Manger",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1012665604@qq.com/ColorComponent",
+  "homepage": "https://github.com/seagull13/ColorComponent.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1012665604@qq.com": "1012665604@qq.com"
   },
   "source": {
-    "git": "https://github.com/1012665604@qq.com/ColorComponent.git",
+    "git": "https://github.com/seagull13/ColorComponent.git",
     "tag": "0.1.0"
   },
   "platforms": {
