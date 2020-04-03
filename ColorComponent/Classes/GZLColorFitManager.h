@@ -41,9 +41,7 @@ static inline UIColor * fit_color(UIColor *color){
         //red
         return [[UIColor colorWithLight:[UIColor redColor] dark:UIColor.brownColor] colorWithAlphaComponent:a];
     }
-    if (r == 0.2 && g == 0.2 && b == 0.2) {
-        return [[UIColor colorWithLight:[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:a] dark:UIColor.whiteColor] colorWithAlphaComponent:a];
-    }
+  
     if (r == 1 && g == 1 && b == 1) {
         return [[UIColor colorWithLight:UIColor.whiteColor dark:[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:a]] colorWithAlphaComponent:a];
     }
@@ -71,9 +69,7 @@ static inline UIColor * fit_backgroundColor(UIColor *color){
     if (r == 240.0/255.0 && g == 240.0/255.0 && b == 240.0/255.0) {
         return [[UIColor colorWithLight:[UIColor colorWithRed:240.0/255.0 green:240.0/255.0 blue:240.0/255.0 alpha:a] dark:[UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:a]] colorWithAlphaComponent:a];
     }
-    if (r == 211.0/255.0 && g == 211.0/255.0 && b == 211.0/255.0) {
-        return [[UIColor colorWithLight:[UIColor colorWithRed:211.0/255.0 green:211.0/255.0 blue:211.0/255.0 alpha:a] dark:[UIColor colorWithRed:240.0/255.0 green:240.0/255.0 blue:240.0/255.0 alpha:a]] colorWithAlphaComponent:a];
-    }
+   
     if (r == 1 && g == 0 && b == 0) {
         //red
         return [[UIColor colorWithLight:[UIColor redColor] dark:UIColor.brownColor] colorWithAlphaComponent:a];

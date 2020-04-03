@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-test
+test color changeTheme
                        DESC
 
   s.homepage         = 'https://github.com/seagull13/ColorComponent.git'

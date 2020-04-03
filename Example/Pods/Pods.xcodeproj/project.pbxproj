@@ -13,6 +13,7 @@
 		27833BCD7AFAC5B6CFE3D8824C1C7A3D /* UIColor+GZLColorFit.m in Sources */ = {isa = PBXBuildFile; fileRef = A70EF0830D011676EEDFEE9EC797ED02 /* UIColor+GZLColorFit.m */; };
 		55910A6FAE61FBB1623B7FD292E0E639 /* ColorComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B540A3B8DB84B9DC20EC0F376E56084C /* ColorComponent-dummy.m */; };
 		6AA0A49AFF71DBFD515B9FE27ACC1A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B136BC32436F99300C6E1A9 /* ColorHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B136BC22436F99300C6E1A9 /* ColorHead.h */; };
 		84401E260BEE5231FE6857DC4FAFBB0A /* UIColor+GZLColorFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB74EFA0A4B98B93D5B13A4D007E01D /* UIColor+GZLColorFit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F45EF3447B4838E7B0E58392BED6867 /* ColorComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB51C8138DE42DDEE371434E6FAB9E65 /* ColorComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1520371011E89DA0E38870247B54914 /* Pods-ColorComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B5F0205A2462DDEA2CB60E11182716 /* Pods-ColorComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,37 +43,38 @@
 		1DAA8003F39F33AB7F6F9CBE6E39A27C /* Pods-ColorComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		212501CECD935532F4FEA03ECADBBD57 /* Pods-ColorComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26B54D9ECECE6B37ECEBFE58C104CD29 /* Pods-ColorComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2792680E034FD83A1FDC8B71B1A2E2B7 /* ColorComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorComponent.framework; path = ColorComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2792680E034FD83A1FDC8B71B1A2E2B7 /* ColorComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8016B17C0DCBFE96686D825A0AA58C /* ColorComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorComponent.release.xcconfig; sourceTree = "<group>"; };
 		2E86D45978CB229B0B9ECCA10C848907 /* Pods-ColorComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorComponent_Tests-Info.plist"; sourceTree = "<group>"; };
 		304A9CD7B187B8B324EE3A09615C31C1 /* Pods-ColorComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		370B5338C8BC0D079AFE5B7068D4E859 /* Pods-ColorComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		3A3193DE081A044DA0CD4D549A263E59 /* ColorComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorComponent-prefix.pch"; sourceTree = "<group>"; };
-		452576D0314992CB2054E4A47CAFB09D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		452576D0314992CB2054E4A47CAFB09D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4B8C5AD215DE0156C23EE91D5679DAFA /* ColorComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorComponent.debug.xcconfig; sourceTree = "<group>"; };
 		5EB74EFA0A4B98B93D5B13A4D007E01D /* UIColor+GZLColorFit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GZLColorFit.h"; path = "ColorComponent/Classes/UIColor+GZLColorFit.h"; sourceTree = "<group>"; };
 		62915F547A2E10D1E6814B3709545BF8 /* Pods-ColorComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		656F4AE712727FB630FEFB34885F0BAB /* Pods-ColorComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		66D6408A9BD1C9183691E7ADC91A77B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66D6408A9BD1C9183691E7ADC91A77B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69C83AF2297A0423278A17F16EE6C527 /* Pods-ColorComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A132A7C42708F290ABDEF99D775FF49 /* Pods-ColorComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77CAEF1A41BBD56AEACC8E905D511B7F /* Pods-ColorComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorComponent_Example-Info.plist"; sourceTree = "<group>"; };
 		78B5F0205A2462DDEA2CB60E11182716 /* Pods-ColorComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B136BC22436F99300C6E1A9 /* ColorHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorHead.h; sourceTree = "<group>"; };
 		7E587D54531C866BCB7E973962946096 /* Pods-ColorComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		885C4AFF608C2C67EB150582D3FD496D /* Pods-ColorComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		8AE892D8B2F7CA3BBF0FAE01E941D051 /* Pods-ColorComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5A5C664D2EC96D5B5680068D397E31F /* ColorComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorComponent-Info.plist"; sourceTree = "<group>"; };
 		A70EF0830D011676EEDFEE9EC797ED02 /* UIColor+GZLColorFit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GZLColorFit.m"; path = "ColorComponent/Classes/UIColor+GZLColorFit.m"; sourceTree = "<group>"; };
 		AB719E1A9B4147DBA3FE97BC92F4AFFF /* Pods-ColorComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		B540A3B8DB84B9DC20EC0F376E56084C /* ColorComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorComponent-dummy.m"; sourceTree = "<group>"; };
-		BF38C700ED8909A1A8B84125F3A120BB /* ColorComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ColorComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF38C700ED8909A1A8B84125F3A120BB /* ColorComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ColorComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBD311C6C70E507C7EB3CB465DFE1AAA /* ColorComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorComponent.modulemap; sourceTree = "<group>"; };
 		E0562CB74FCC2C4095A8623283A5DB5E /* Pods-ColorComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorComponent_Example.modulemap"; sourceTree = "<group>"; };
 		E5F09FB8586BDFE95280C21FC5F34E49 /* GZLColorFitManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZLColorFitManager.h; path = ColorComponent/Classes/GZLColorFitManager.h; sourceTree = "<group>"; };
-		EA7E94CCAB21AD5231D27BAA31EA2733 /* Pods_ColorComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorComponent_Example.framework; path = "Pods-ColorComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE544A7378D1BD80C3BF65B3F35E7CF4 /* Pods_ColorComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorComponent_Tests.framework; path = "Pods-ColorComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7E94CCAB21AD5231D27BAA31EA2733 /* Pods_ColorComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE544A7378D1BD80C3BF65B3F35E7CF4 /* Pods_ColorComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB51C8138DE42DDEE371434E6FAB9E65 /* ColorComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorComponent-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				E5F09FB8586BDFE95280C21FC5F34E49 /* GZLColorFitManager.h */,
+				7B136BC22436F99300C6E1A9 /* ColorHead.h */,
 				5EB74EFA0A4B98B93D5B13A4D007E01D /* UIColor+GZLColorFit.h */,
 				A70EF0830D011676EEDFEE9EC797ED02 /* UIColor+GZLColorFit.m */,
 				7D58D3D230B8F44868EE14945E7203F7 /* Pod */,
@@ -254,6 +257,7 @@
 			files = (
 				8F45EF3447B4838E7B0E58392BED6867 /* ColorComponent-umbrella.h in Headers */,
 				161DD02E0D6C656692638983BDAF2650 /* GZLColorFitManager.h in Headers */,
+				7B136BC32436F99300C6E1A9 /* ColorHead.h in Headers */,
 				84401E260BEE5231FE6857DC4FAFBB0A /* UIColor+GZLColorFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,8 +535,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
