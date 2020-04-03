@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ColorComponent_Example' do
+  pod 'ColorComponent', :path => '../'
+
+  target 'ColorComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
