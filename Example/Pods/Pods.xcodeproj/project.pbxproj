@@ -11,6 +11,9 @@
 		4347044E1DC14F6C24D0F2CD44422222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6AA0A49AFF71DBFD515B9FE27ACC1A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		774198C8573EDFF406CE07248D1EBB58 /* ColorComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F6F103E58679D0FB361BD024644AD /* ColorComponent-dummy.m */; };
+		7B136BBF2436ECFE00C6E1A9 /* UIColor+GZLColorFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B136BBC2436ECFD00C6E1A9 /* UIColor+GZLColorFit.h */; };
+		7B136BC02436ECFE00C6E1A9 /* UIColor+GZLColorFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B136BBD2436ECFE00C6E1A9 /* UIColor+GZLColorFit.m */; };
+		7B136BC12436ECFE00C6E1A9 /* GZLColorFitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B136BBE2436ECFE00C6E1A9 /* GZLColorFitManager.h */; };
 		84DEA98B980042E8FD7934C24B665EE1 /* ColorComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFC9A9F6EEFA26E0679740A4F355CF8 /* ColorComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1520371011E89DA0E38870247B54914 /* Pods-ColorComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B5F0205A2462DDEA2CB60E11182716 /* Pods-ColorComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3111C6488AE1CED08A673B7656CFAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -52,6 +55,9 @@
 		6A132A7C42708F290ABDEF99D775FF49 /* Pods-ColorComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77CAEF1A41BBD56AEACC8E905D511B7F /* Pods-ColorComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorComponent_Example-Info.plist"; sourceTree = "<group>"; };
 		78B5F0205A2462DDEA2CB60E11182716 /* Pods-ColorComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B136BBC2436ECFD00C6E1A9 /* UIColor+GZLColorFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GZLColorFit.h"; sourceTree = "<group>"; };
+		7B136BBD2436ECFE00C6E1A9 /* UIColor+GZLColorFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GZLColorFit.m"; sourceTree = "<group>"; };
+		7B136BBE2436ECFE00C6E1A9 /* GZLColorFitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZLColorFitManager.h; sourceTree = "<group>"; };
 		7E587D54531C866BCB7E973962946096 /* Pods-ColorComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		81E8C7FA56E581A2CE5A04B17F1DAC08 /* ColorComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ColorComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		885C4AFF608C2C67EB150582D3FD496D /* Pods-ColorComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorComponent_Example-dummy.m"; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		568AF52C4EE2AEC5FDE4F8195469A962 /* ColorComponent */ = {
 			isa = PBXGroup;
 			children = (
+				7B136BBE2436ECFE00C6E1A9 /* GZLColorFitManager.h */,
+				7B136BBC2436ECFD00C6E1A9 /* UIColor+GZLColorFit.h */,
+				7B136BBD2436ECFE00C6E1A9 /* UIColor+GZLColorFit.m */,
 				F35ABC8678DCA302F27DBF528FE0F4F4 /* Pod */,
 				AC03FB7705BF531F18AD0DD8829C1302 /* Support Files */,
 			);
@@ -243,7 +252,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B136BBF2436ECFE00C6E1A9 /* UIColor+GZLColorFit.h in Headers */,
 				84DEA98B980042E8FD7934C24B665EE1 /* ColorComponent-umbrella.h in Headers */,
+				7B136BC12436ECFE00C6E1A9 /* GZLColorFitManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				774198C8573EDFF406CE07248D1EBB58 /* ColorComponent-dummy.m in Sources */,
+				7B136BC02436ECFE00C6E1A9 /* UIColor+GZLColorFit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
